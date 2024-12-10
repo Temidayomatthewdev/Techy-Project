@@ -19,6 +19,7 @@ header{
 .btn{
     margin: 9px 0 9px 0;
     background-color: grey;
+    width: 85px;
 }
 .categories > div {
     display: grid;
@@ -30,9 +31,7 @@ button{
     padding: 7px 5px ;
     border-radius: 5px;
 }
-.offer{
-    margin-top: 10px;
-}
+
 .package{
     display: flex;
     justify-content:space-between;
@@ -43,19 +42,15 @@ button{
 }
 .off-dis > h2{
     font-size: 18px;
-    margin-top: 10px;
+    margin: 10px 0px;
 }
 .textarea{
     position: relative;
     margin-top: 10px;
     max-width: 100%;
-    border: 1px solid blue;
     height: 80px;
 }
-section{
-    border: 1px solid red;
-    width: 100%;
-}
+
 .textarea > textarea{
     position: absolute;
     width: 100%;
@@ -72,14 +67,14 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-items: center;
     list-style: none;
-    text-align: center;
 }
 footer ul > li {
     background-color: grey;
-    padding: 10px;
+    padding: 6px;
+    margin-top: 10px;
     border-radius: 5px;
-    text-align: center;
 }
 footer ul > li > a{
     text-decoration: none;
